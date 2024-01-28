@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #034687!important;
+}
+.calculator-imc{
+    height: 55vh;
+    width: 26vw;
+    margin: 15vh;
+    background-color: #151B25;
+    border-radius: 2vw;
+}
+.title {
+    color: white!important;
+}
+
+    label {
+    color: white;
+}
+input {
+    width: 22vw!important;
+}
+button {
+    display: flex;
+    gap: 4px;
+    width: 21vw!important;
+}
+.line-divisao{
+    border: 2px solid white;
+    border-radius: 2px;
+}
+.msg-imc {
+    height: 30vh;
+    width: 26vw;
+    margin: -25vh;
+    background-color: #151B25;
+    border-radius: 2vw;
+    visibility:hidden;
+}
+#btn-calculate {
+    background-color: #192E41;
+    color: white;
+}
+#btn-calculate:hover{
+    background-color: #214358;
+}
+#btn-clear {
+    background-color: #E10032;
+    color: white;
+}
+#btn-clear:hover{
+    background-color:  red;
+}
+.descri {
+    color: white;
+}
+p {
+    color: white;
+}
+.paragrafos {
+    color: white;
+}
+.input-field {
+    
+    position: relative;
+}
+
+.input-field i,
+.input-field span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-field i {
+    left: 15px; /* Ajuste a posição horizontal do ícone conforme necessário */
+}
+
+.input-field span {
+    right: 16px; /* Ajuste a posição horizontal da etiqueta conforme necessário */
+}
+/* faz com que os nao apareça a config do tipo numbe do input */
+.input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+.input-field input{
+    text-indent: 30px /* ajustar conforme necessário para definir a posição inicial do cursor */
+}
